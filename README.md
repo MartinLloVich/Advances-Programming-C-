@@ -1,7 +1,7 @@
 Advanced Programming Practices
 This repository contains the practical assignments for the Advanced Programming course, implementing various process communication and synchronization mechanisms in operating systems using the C language.
 
-📋 Included Practices
+📋 # Included Practices
 
 1. Practice 1 - Pipes (MartinLoring_Practica1_Main.c)
 Implementation of a number guessing game using pipes for communication between parent and child processes.
@@ -64,7 +64,7 @@ Dynamic memory management
 
 
 
-🛠️ Technologies Used
+🛠️ # Technologies Used
 
 Language: C
 
@@ -79,46 +79,52 @@ Pthreads for multithreading
 System calls for pipes and processes
 
 
-📁 Repository Structure
+📁 # Repository Structure
 
 Advanced-Programming/
-│
+
+
 ├── Practice1_Pipes/
 │   └── MartinLoring_Practica1_Main.c
-│
+
+
 ├── Practice2_MessageQueues/
 │   ├── Pract2_Productor.c
 │   └── Pract2_Receptor.c
-│
+
+
 ├── Practice3_SharedMemory/
 │   ├── Pract3_proceso1.c
 │   ├── Pract3_proceso2.c
 │   └── Pract3_common.h
-│
+
+
 ├── Practice4_Semaphores/
 │   ├── Pract4_Productor.c
 │   ├── Pract4_Consumidor.c
 │   └── Pract4_Common.c
-│
+
+
 ├── Practice5_Threads/
 │   ├── Pract5_Main.c
 │   └── Pract5_ProblemaLostWakeup.c
-│
+
+
 └── Practice6_Trees/
     ├── Pract6_Main.c
     └── Pract6_Sort_Tree
 
     
-🚀 Compilation and Execution
+🚀 # Compilation and Execution
 Each practice can be compiled individually. For example:
 
-# Compile pipes practice
+Compile pipes practice
 gcc MartinLoring_Practica1_Main.c -o practice1
 
-# Compile threads practice
+Compile threads practice
 gcc Pract5_Main.c -o practice5 -lpthread
 
-# Execute
+Execute
 ./practice1
 📚 Applied Concepts
 Inter-process communication (IPC)
@@ -134,10 +140,10 @@ Data structures (binary trees)
 Error handling and system resource management
 
 
-👨‍💻 Author
+👨‍💻 # Author
 Martin Loring - Advanced Programming course assignments
 
 
-📄 License
+📄 # License
 This project is for educational purposes as part of university curriculum.
 
